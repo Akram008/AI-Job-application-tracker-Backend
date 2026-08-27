@@ -4,7 +4,7 @@ import cors from "cors";
 const app = express();
 
 app.use(cors({
-    origin: ["http://localhost:5173"]
+    origin: ["http://localhost:5173", "https://ai-job-application-tracker-murex.vercel.app"]
 }));
 
 app.use(express.json());
